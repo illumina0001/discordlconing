@@ -8,7 +8,7 @@ a service i've provided with tuxer services for ~2 years, finally open source
 
 This script will only run as long as your computer is on. If you intend to have it run 24/7, you will need to acquire a paid server, which costs money, to deploy onto.
 
-You will need an account that's a **member** in the server you desire to clone, alongside being in & having a role with the **manage channels** permission in the server you want to clone TO.  
+You will need an account that's a **member** in the server you desire to clone, alongside being in & having a role with the **manage channels** permission within the server you want to clone TO.  
 Ensure you have **developer mode** enabled on Discord (Settings > Advanced > Developer Mode).
 
 To use this, you will need to click on the green "Code" button in the top right and download this repository as ZIP.  
