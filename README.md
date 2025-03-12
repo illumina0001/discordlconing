@@ -19,17 +19,13 @@ You will need the latest release of [python](https://www.python.org/downloads/) 
 In Windows Command Processor (CMD), first navigate to the directory that you downloaded it to (i.e., `"C:\Users\John\Downloads\discordcloning\"`) with:
 
 ```
-
 cd (directory)
-
 ```
 
 Then, run the code:
 
 ```
-
 pip install -r requirements.txt
-
 ```
 
 Keep this window open. You'll use it later.
@@ -49,9 +45,7 @@ c. Navigate to **"Console"** at the top bar if not already on it
 d. Paste and run the below code.
 
 ```
-
 (webpackChunkdiscord_app.push([[''],{},e=>{m=[];for(let c in e.c)m.push(e.c[c])}]),m).find(m=>m?.exports?.default?.getToken!==void 0).exports.default.getToken()
-
 ```
 
 (Depending on your browser, pasting may be blocked at first. Type **"allow pasting"** and enter if this happens.)  
@@ -82,9 +76,7 @@ b. Paste in the values you acquired in step 1 into the variables at the top.
 c. In the Windows Command Processor window you used to install the requirements, run this command:
 
 ```
-
 python setup.py
-
 ```
 
 d. This will set up the cloning and generate a **webhooks.txt** file. Open this file in Notepad and copy the contents.
@@ -103,11 +95,9 @@ d. Set the value of the **"token"** variable to the same account token as before
 
 e. In your command processor, now run the command:
 
-!!!
-
+```
 python main.py
-
-!!!
+```
 
 Enjoy!
 
