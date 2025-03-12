@@ -24,6 +24,7 @@ Keep this window open. You'll use it later.
 ### 1. Get necessary values
 
 **User Token**
+
 a. Go to discord.com/app while logged into the account you will use.
 b. Open your browser's DevTools (F12 or Ctrl+Shift+C)
 c. Navigate to "Console" at the top bar if not already on it
@@ -36,6 +37,7 @@ For people who have never done this before, Discord has warnings in their consol
 e. Copy the value that is returned. THis will be the account token we use.
 
 **Receiver & Source Guild ID**
+
 a. For those who didn't heed my warning about developer mode before, do it now.
 b. Right click on the icon for the server you want to clone. Click on "Copy Server ID" at the bottom. This will be the **source guild ID**, or the id of the server that the messages will be retrieved FROM.
 c. Do the same for the server you want to use for receiving cloned messages. This will be the **receiver guild ID**, or the id of the server that messages will be forwarded TO.
